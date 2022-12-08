@@ -24,6 +24,22 @@ if [ $name -eq 04 ];
 then
    num="31"
 fi
+if [ $name -eq 05 ];
+then
+   num="01"
+fi
+if [ $name -eq 06 ];
+then
+   num="02"
+fi
+if [ $name -eq 07 ];
+then
+   num="03"
+fi
+if [ $name -eq 08 ];
+then
+   num="04"
+fi
 if [ $name -eq 09 ];
 then
    num="05"
@@ -133,4 +149,3 @@ then
 else
    echo "O pasta de backup ${nome} não existe"
 fi
-
